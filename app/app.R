@@ -9,7 +9,7 @@ graf <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       selectizeInput("kodas",
-                     "Įmonės kodas",
+                     "Pasirinkite",
                      choices = NULL)),
     
     
