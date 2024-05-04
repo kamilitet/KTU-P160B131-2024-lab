@@ -5,7 +5,7 @@ library(tidyverse)
 library(jsonlite)
 
 graf <- fluidPage(
-  titlePanel("Įmonių vidutiniai atlyginimai"),
+  titlePanel("Veiklos kodas 560000"),
   sidebarLayout(
     sidebarPanel(
       selectizeInput("kodas",
